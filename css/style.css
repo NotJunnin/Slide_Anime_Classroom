@@ -115,3 +115,19 @@ body{
 .delayreverse{
     animation: deslizereverse 2.4s backwards;
 }
+
+@media screen and (max-width: 481px){
+    body{
+        padding: -30vh;
+        position: relative;
+    }
+
+    .container-slide, .container-items, .item, .item img{
+        width: 335.5px;
+        height: 550px;
+    }
+
+    #nomes{
+        font-size: 30px;
+    }
+}
